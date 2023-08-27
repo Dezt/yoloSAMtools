@@ -6,7 +6,7 @@ The main tool is ***redoYOLOPolygonsWithSAM.py***.  It is designed to redo polyg
 The tool uses the process:
 1. Convert all existing YOLO polygons into bounding boxes (existing bbox annotations will be used as is)
 2. Use the bounding boxes with the very mature SAM model to give us new masks
-3. Convert those masks BACK AGAIN into YOLO polygon annotations, hopefully improving them
+3. Convert those masks BACK AGAIN into YOLO polygon annotations
 4. Optimize those polygons so they are not too noisy and can still be hand corrected in roboflow or labelbox etc
 
 ![INPUT: A folder of images with Yolo bounding box and/or polygon annotations](a.png)
