@@ -38,5 +38,5 @@ https://dl.fbaipublicfiles.com/segment_anything/sam_vit_h_4b8939.pth
 # Point paths
 Go into **redoYOLOPolygonsWithSAM.py** and set your paths accordingly.
 
-NOTE: Make sure to change the *sam_checkpoint* path variable as well to point to where you downloaded it.
+NOTE: Make sure to change the *sam_checkpoint* path variable as well to point to where you downloaded sam_vit_h_4b8939.pth.
 
