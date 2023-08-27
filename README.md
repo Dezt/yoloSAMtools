@@ -15,6 +15,9 @@ The tool uses the process:
 ![OUTPUT: Redone Yolo bounding box annotations using Meta's SAM model](b.png)
 **OUTPUT: All annotations redone using Meta's SAM model**
 
+![Clean, editable verts](c.png)
+**Vertices are cleaned up to allow hand editing in Labelbox/Roboflow/etc after running**
+
 # To use, install with pip:
 
 pip install ultralytics
