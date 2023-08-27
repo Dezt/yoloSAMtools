@@ -67,7 +67,7 @@ def removeStairStepping(coords:[[float,float]], stairStepCheckDistance:float, al
     i = 1
     while i < numCoords: 
         if areCoordsWithinDistance(coords[i-1], coords[i], 1.1):  #these coords are within a pixel... get rid of the higher one.
-            if coords[i-1][1] > coords[i][1]: #coord i is lower than i-1          
+            if coords[i-1][1] < coords[i][1]: #coord i is lower than i-1          
                 coords.pop(i-1) #BIAS DOWN
             else:
                 coords.pop(i) #BIAS DOWN
