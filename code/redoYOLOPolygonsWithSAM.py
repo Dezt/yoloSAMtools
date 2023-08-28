@@ -26,9 +26,6 @@ If you get an out-of-memory issue, you may be able to solve it in one of 2 ways:
 
 """
     
-    
-#annotationsDir = 'D:/WORKING/DEV/WallProjectorML/WORKING/imageSegmentation/_transfer/mixedRoughAnnotations.yolov8/test/labels/'  #path to annotation files
-#imageDir = 'D:/WORKING/DEV/WallProjectorML/WORKING/imageSegmentation/_transfer/mixedRoughAnnotations.yolov8/test/images/'  #can be the same as the annotationsDir.  It needs the associated image so it can know the resolution to do pixel based calculations   
 annotationsDir =    '../demo/'  #path to annotation files
 imageDir =          '../demo/'  #can be the same as the annotationsDir.  It needs the associated image so it can know the resolution to do pixel based calculations
 outputDir =         '../'
