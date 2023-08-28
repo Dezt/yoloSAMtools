@@ -17,6 +17,7 @@ def changeLabelTo(inLabel:int) -> int:
         return 1
     return 0
     
+#################################### Internal. You probably only need to change the above.
         
 def checkLineLabels(rawLine) -> str:
     rawLine = rawLine.rstrip()
