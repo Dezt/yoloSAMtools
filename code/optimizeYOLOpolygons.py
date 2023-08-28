@@ -5,7 +5,7 @@ from PIL import Image
 
 from optimizationUtils import *
 
-targetDir = 'D:/path/to/annotations/'  #path to annotation files
+targetDir = 'D:/path/to/labels/'  #path to annotation files
 imageDir = 'D:/path/to/images/'
 YOLOending=".txt"
 imageEnding=".jpg"
