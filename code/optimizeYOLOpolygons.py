@@ -6,7 +6,7 @@ from PIL import Image
 from optimizationUtils import *
 
 targetDir = 'D:/path/to/labels/'  #path to annotation files
-imageDir = 'D:/path/to/images/'
+imageDir = 'D:/path/to/images/'  #can be the same as the targetDir.  It needs the associated image so it can know the resolution to do pixel based calculations
 YOLOending=".txt"
 imageEnding=".jpg"
 
