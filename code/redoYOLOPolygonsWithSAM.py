@@ -71,7 +71,6 @@ import cv2
 # INPUT is a string containing a YOLO formatted polygon annotation (a single raw line from an annotation file)
 # OUTPUT is a string bbox annotation... depending on convertToBBoxOnly it will return a [xmax ymax xmin ymin] or a YOLO format [xcenter ycenter w h]
 # NOTE: THIS WILL ASSUME ANNOTATIONS WITH LENGTH 5 ARE ALREADY BOUNDING BOXES, AND WILL HANDLE ACCORDINGLY:  This allows mixed content to be handled.
-# also note that bounding boxes with an axis smaller than minBboxPixel will be removed.  SAM can throw an  "empty max() arg" error if asked to infer a mask from a bbox smaller than 12 or 13 pixels
 def convertYOLOPolygonAnnotation2Bbox(line: str, resX:int, resY:int) -> str:   
     #convert a yolo annotation to a bounding box 
     elements = line.split()
